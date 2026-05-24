@@ -1,0 +1,66 @@
+/**
+ * Poker table theme tokens.
+ *
+ * Scoped to [data-theme="…"] so they only apply inside the table screen.
+ * Add a new theme by copying the [data-theme="flat"] block and changing values.
+ * No component should hard-code colors, radii, or shadows — always reference
+ * these custom properties.
+ */
+
+[data-theme='flat'] {
+	/* surfaces */
+	--table-bg: #0d1117;
+	--table-surface: #15202b;
+	--table-rail: #1f2d3a;
+
+	/* seats */
+	--seat-bg: #1c2733;
+	--seat-bg-active: #243441;
+	--seat-border: #2d3d4d;
+	--seat-text: #e6edf3;
+	--seat-text-dim: #8b98a5;
+
+	/* cards */
+	--card-bg: #ffffff;
+	--card-text: #0d1117;
+	--card-back: #2b6cb0;
+	--card-radius: 8px;
+
+	/* suits */
+	--suit-hearts: #e53e3e;
+	--suit-diamonds: #dd6b20;
+	--suit-clubs: #2f855a;
+	--suit-spades: #1a202c;
+
+	/* chips / pot */
+	--pot-text: #f6e05e;
+	--bet-chip: #4299e1;
+
+	/* action buttons */
+	--btn-fold: #c53030;
+	--btn-check-call: #2f855a;
+	--btn-bet-raise: #2b6cb0;
+	--btn-text: #ffffff;
+
+	/* turn timer */
+	--timer-track: #2d3d4d;
+	--timer-fill: #f6e05e;
+	--timer-fill-danger: #e53e3e;
+
+	/* misc */
+	--accent: #4299e1;
+	--danger: #e53e3e;
+	--radius-md: 12px;
+	--shadow-seat: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Future themes plug in here. Example:
+
+[data-theme="felt"] {
+	--table-bg: #052e16;
+	--table-surface: #0d4a26;
+	--table-rail: #6b4423;
+	…
+}
+
+*/
