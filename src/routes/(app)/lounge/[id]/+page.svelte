@@ -65,13 +65,13 @@
 	<p class="mt-2 text-xs text-muted">Share this code with friends so they can join.</p>
 </section>
 
-<section class="mb-6 rounded-xl border border-dashed border-border bg-surface/60 p-5">
-	<div class="flex items-center justify-between">
-		<div>
-			<p class="font-semibold">Start game</p>
-			<p class="text-xs text-muted">Coming soon — the poker engine isn’t built yet.</p>
+<section class="mb-6 rounded-xl border border-border bg-surface p-5">
+	<div class="flex items-center justify-between gap-3">
+		<div class="min-w-0">
+			<p class="font-semibold">Live table</p>
+			<p class="text-xs text-muted">Open the poker table for this lounge.</p>
 		</div>
-		<Button disabled size="md" title="Coming soon">Start</Button>
+		<Button href="./table" size="lg">Enter Table</Button>
 	</div>
 </section>
 
